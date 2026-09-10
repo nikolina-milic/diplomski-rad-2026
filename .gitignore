@@ -1,0 +1,37 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# Baza i artefakti (generisano u radu)
+spr.db
+artifacts/
+
+# Rezultati evaluacije koji se čuvaju u projektu.
+reports/*
+!reports/evaluation.json
+!reports/ieee_cis_evaluation.json
+!reports/ulb_evaluation.json
+
+# Stvarni skupovi se preuzimaju lokalno i ne smiju se redistribuirati.
+data/ieee-cis/
+data/ulb-creditcard/
+
+# Diplomski rad i njegove radne verzije ostaju lokalno.
+*.docx
+*.pdf
+APSTRAKT_I_POGLAVLJE_1_REVIDIRANO.md
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# IDE / OS
+.idea/
+.vscode/
+.qodo/
+.DS_Store
