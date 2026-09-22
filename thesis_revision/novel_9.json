@@ -1,0 +1,37 @@
+{
+  "account_takeover": {
+    "n_test_fraud": 61,
+    "rules": 0.6361455570815089,
+    "ml": 0.6543557825121612,
+    "hybrid_stacking": 0.6793448082360152,
+    "hybrid_cascade": 0.6548925098911937
+  },
+  "card_testing": {
+    "n_test_fraud": 67,
+    "rules": 0.08547242293763922,
+    "ml": 0.023930380028520513,
+    "hybrid_stacking": 0.0453919489979701,
+    "hybrid_cascade": 0.021239354856410184
+  },
+  "impossible_travel": {
+    "n_test_fraud": 61,
+    "rules": 0.8344734157862311,
+    "ml": 0.7690099588317072,
+    "hybrid_stacking": 0.871609058352053,
+    "hybrid_cascade": 0.6863704244688552
+  },
+  "sudden_large_amount": {
+    "n_test_fraud": 61,
+    "rules": 0.19221520536800246,
+    "ml": 0.03582282548874452,
+    "hybrid_stacking": 0.11010767290343823,
+    "hybrid_cascade": 0.031120705609801777
+  },
+  "new_country_device": {
+    "n_test_fraud": 61,
+    "rules": 0.6794173320024518,
+    "ml": 0.7116943567414157,
+    "hybrid_stacking": 0.7161094820534907,
+    "hybrid_cascade": 0.6242985342219816
+  }
+}
