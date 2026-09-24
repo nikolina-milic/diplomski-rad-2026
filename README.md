@@ -151,7 +151,7 @@ cd SPR
 .venv/bin/python -m pytest -q
 ```
 
-177 testova; pokrivaju generator (uključujući **provjere realizma** — da klase nisu trivijalno
+184 testa; pokrivaju generator (uključujući **provjere realizma** — da klase nisu trivijalno
 separabilne), context, pravila, ML, kalibraciju, fusion model, trošak/pragove, politiku i režim,
 engine, API, perzistenciju, učenje, drift i evaluaciju.
 
